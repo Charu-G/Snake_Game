@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/img/snake.png">
+</head>
+
+<body>
+    <h1>Snake Game</h1>
+    <img style="display:none;" id="apple" src="/img/apple.png">
+    <img style="display:none;" id="snake-head" src="/img/snake.png">
+    <div class="flexbox-container">
+        <div class="flexbox-item"><button id="replay-btn">Replay</button></div>
+        <canvas class="flexbox-item-game" id="game-board"></canvas>
+        <p class="flexbox-item" id="score">Score: 0</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
